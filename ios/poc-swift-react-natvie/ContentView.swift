@@ -32,6 +32,8 @@ struct ContentView: View {
                 }
                 .onTapGesture {
                     print("row:", contact.name)
+                    let showDetails = EventsList()
+                    showDetails.showDetails(contact: contact)
                 }
             }.navigationTitle("Students")
         }
