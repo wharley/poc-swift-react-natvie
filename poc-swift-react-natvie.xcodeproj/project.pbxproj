@@ -45,6 +45,7 @@
 		67C4EF9C25D83FF60076E596 /* poc-swift-react-natvieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-swift-react-natvieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C4EFA025D83FF60076E596 /* poc_swift_react_natvieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_swift_react_natvieUITests.swift; sourceTree = "<group>"; };
 		67C4EFA225D83FF60076E596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D4F9F425D8BFD400DE6F2E /* linktest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linktest-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 				67C4EF8725D83FF50076E596 /* Assets.xcassets */,
 				67C4EF8C25D83FF50076E596 /* Info.plist */,
 				67C4EF8925D83FF50076E596 /* Preview Content */,
+				67D4F9F425D8BFD400DE6F2E /* linktest-Bridging-Header.h */,
 			);
 			path = "poc-swift-react-natvie";
 			sourceTree = "<group>";
