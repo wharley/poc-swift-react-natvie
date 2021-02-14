@@ -16,7 +16,7 @@ struct Contacts: Identifiable {
 
 struct ContentView: View {
     var contactList = [
-        Contacts(id: 1, name: "Wharley Ornelas", course: "JavaScript", color: .red),
+        Contagit cts(id: 1, name: "Wharley Ornelas", course: "JavaScript", color: .red),
         Contacts(id: 2, name: "João Rocha", course: "Java", color: .blue),
         Contacts(id: 3, name: "Iara Rocha", course: "JavaScript", color: .red),
         Contacts(id: 4, name: "Maria Rita Ornelas", course: "Banco de Dados", color: .green),

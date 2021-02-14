@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 @objc(EventsList)
 public class EventsList: NSObject {
     @objc
