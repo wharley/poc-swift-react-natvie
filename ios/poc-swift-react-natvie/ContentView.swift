@@ -30,6 +30,9 @@ struct ContentView: View {
                     Text(contact.name)
                     Text(contact.course).foregroundColor(contact.color)
                 }
+                .onTapGesture {
+                    print("row:", contact.name)
+                }
             }.navigationTitle("Students")
         }
     }
