@@ -4,7 +4,7 @@
 //
 //  Created by Wharley Ornelas Rocha on 2/13/21.
 //
-
+import UIKit
 import SwiftUI
 
 struct Contacts: Identifiable {
@@ -31,7 +31,6 @@ struct ContentView: View {
                     Text(contact.course).foregroundColor(contact.color)
                 }
                 .onTapGesture {
-                    print("row:", contact.name)
                     let showDetails = EventsList()
                     showDetails.showDetails(contact: contact)
                 }

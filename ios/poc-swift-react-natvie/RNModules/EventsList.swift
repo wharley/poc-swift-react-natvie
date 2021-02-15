@@ -6,10 +6,27 @@
 //
 
 import Foundation
+//import React
+
 @objc(EventsList)
-public class EventsList: NSObject {
+class EventsList: UIViewController {
     @objc
     public func showDetails(contact: Any) {
-        print(contact)
+//        let mockData:NSDictionary = ["items":
+//            [
+//                ["id": "1", "course": "JavaScript"],
+//            ]
+//        ]
+//
+//        let rootView = RCTRootView(
+//            bundleURL: URL(string: "http://localhost:8081/index.bundle?platform=ios")!,
+//            moduleName: "RNEventList",
+//            initialProperties: mockData as [NSObject : AnyObject],
+//            launchOptions: nil
+//        )
+//
+//        let viwController = UIViewController()
+//        viwController.view = rootView
+//        self.present(viwController, animated: true, completion: nil)
     }
 }

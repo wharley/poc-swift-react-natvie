@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676BAFA225D9FB5000384B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676BAFA125D9FB5000384B07 /* AppDelegate.swift */; };
+		676BAFA725D9FF2800384B07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676BAFA625D9FF2800384B07 /* ViewController.swift */; };
 		6786693525D98955005DA693 /* EventsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6786693425D98955005DA693 /* EventsList.swift */; };
-		6786693D25D989D2005DA693 /* EventsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786693C25D989D2005DA693 /* EventsList.m */; };
-		67C4EF8425D83FF10076E596 /* poc_swift_react_natvieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4EF8325D83FF10076E596 /* poc_swift_react_natvieApp.swift */; };
-		67C4EF8625D83FF10076E596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4EF8525D83FF10076E596 /* ContentView.swift */; };
 		67C4EF8825D83FF50076E596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C4EF8725D83FF50076E596 /* Assets.xcassets */; };
 		67C4EF8B25D83FF50076E596 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C4EF8A25D83FF50076E596 /* Preview Assets.xcassets */; };
 		67C4EF9625D83FF60076E596 /* poc_swift_react_natvieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4EF9525D83FF60076E596 /* poc_swift_react_natvieTests.swift */; };
 		67C4EFA125D83FF60076E596 /* poc_swift_react_natvieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4EFA025D83FF60076E596 /* poc_swift_react_natvieUITests.swift */; };
+		C2CD8AD01F435C61ED157B7B /* libPods-poc-swift-react-natvie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8916BF4C22E062AB51A39ACF /* libPods-poc-swift-react-natvie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +36,10 @@
 
 /* Begin PBXFileReference section */
 		67209CBE25D98BDC0019AE3A /* poc-swift-react-natvie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "poc-swift-react-natvie-Bridging-Header.h"; sourceTree = "<group>"; };
+		676BAFA125D9FB5000384B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		676BAFA625D9FF2800384B07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6786693425D98955005DA693 /* EventsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsList.swift; sourceTree = "<group>"; };
-		6786693C25D989D2005DA693 /* EventsList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsList.m; sourceTree = "<group>"; };
 		67C4EF8025D83FF10076E596 /* poc-swift-react-natvie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poc-swift-react-natvie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67C4EF8325D83FF10076E596 /* poc_swift_react_natvieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_swift_react_natvieApp.swift; sourceTree = "<group>"; };
-		67C4EF8525D83FF10076E596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67C4EF8725D83FF50076E596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67C4EF8A25D83FF50076E596 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67C4EF8C25D83FF50076E596 /* poc-swift-react-natvie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "poc-swift-react-natvie.xcodeproj"; path = "../poc-swift-react-natvie.xcodeproj"; sourceTree = "<group>"; };
@@ -50,6 +49,9 @@
 		67C4EF9C25D83FF60076E596 /* poc-swift-react-natvieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-swift-react-natvieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C4EFA025D83FF60076E596 /* poc_swift_react_natvieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_swift_react_natvieUITests.swift; sourceTree = "<group>"; };
 		67C4EFA225D83FF60076E596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8916BF4C22E062AB51A39ACF /* libPods-poc-swift-react-natvie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-poc-swift-react-natvie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897B9C1C2AEEE6C09296138D /* Pods-poc-swift-react-natvie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-swift-react-natvie.debug.xcconfig"; path = "Target Support Files/Pods-poc-swift-react-natvie/Pods-poc-swift-react-natvie.debug.xcconfig"; sourceTree = "<group>"; };
+		99D9FB9625BD4D956FD4FDD1 /* Pods-poc-swift-react-natvie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-swift-react-natvie.release.xcconfig"; path = "Target Support Files/Pods-poc-swift-react-natvie/Pods-poc-swift-react-natvie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CD8AD01F435C61ED157B7B /* libPods-poc-swift-react-natvie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,11 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A1F345F7016982BD0F872C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				897B9C1C2AEEE6C09296138D /* Pods-poc-swift-react-natvie.debug.xcconfig */,
+				99D9FB9625BD4D956FD4FDD1 /* Pods-poc-swift-react-natvie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6786693325D988E0005DA693 /* RNModules */ = {
 			isa = PBXGroup;
 			children = (
 				6786693425D98955005DA693 /* EventsList.swift */,
-				6786693C25D989D2005DA693 /* EventsList.m */,
 				67209CBE25D98BDC0019AE3A /* poc-swift-react-natvie-Bridging-Header.h */,
 			);
 			path = RNModules;
@@ -94,6 +105,8 @@
 				67C4EF9425D83FF60076E596 /* poc-swift-react-natvieTests */,
 				67C4EF9F25D83FF60076E596 /* poc-swift-react-natvieUITests */,
 				67C4EF8125D83FF10076E596 /* Products */,
+				2A1F345F7016982BD0F872C8 /* Pods */,
+				962F512BD6E36C6214FA043E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,11 +124,11 @@
 			isa = PBXGroup;
 			children = (
 				6786693325D988E0005DA693 /* RNModules */,
-				67C4EF8325D83FF10076E596 /* poc_swift_react_natvieApp.swift */,
-				67C4EF8525D83FF10076E596 /* ContentView.swift */,
 				67C4EF8725D83FF50076E596 /* Assets.xcassets */,
 				67C4EF8C25D83FF50076E596 /* poc-swift-react-natvie.xcodeproj */,
 				67C4EF8925D83FF50076E596 /* Preview Content */,
+				676BAFA125D9FB5000384B07 /* AppDelegate.swift */,
+				676BAFA625D9FF2800384B07 /* ViewController.swift */,
 			);
 			path = "poc-swift-react-natvie";
 			sourceTree = "<group>";
@@ -148,7 +161,17 @@
 		};
 		67C8796A25D8C45A0015DD0D /* Products */ = {
 			isa = PBXGroup;
+			children = (
+			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		962F512BD6E36C6214FA043E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8916BF4C22E062AB51A39ACF /* libPods-poc-swift-react-natvie.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67C4EFA525D83FF60076E596 /* Build configuration list for PBXNativeTarget "poc-swift-react-natvie" */;
 			buildPhases = (
+				710D2F2073493603CF0A3388 /* [CP] Check Pods Manifest.lock */,
 				67C4EF7C25D83FF10076E596 /* Sources */,
 				67C4EF7D25D83FF10076E596 /* Frameworks */,
 				67C4EF7E25D83FF10076E596 /* Resources */,
+				13D9F0E0A1A0AA07D1A007EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,15 +307,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13D9F0E0A1A0AA07D1A007EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-poc-swift-react-natvie/Pods-poc-swift-react-natvie-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-poc-swift-react-natvie/Pods-poc-swift-react-natvie-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-poc-swift-react-natvie/Pods-poc-swift-react-natvie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710D2F2073493603CF0A3388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-swift-react-natvie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67C4EF7C25D83FF10076E596 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6786693D25D989D2005DA693 /* EventsList.m in Sources */,
-				67C4EF8625D83FF10076E596 /* ContentView.swift in Sources */,
+				676BAFA725D9FF2800384B07 /* ViewController.swift in Sources */,
 				6786693525D98955005DA693 /* EventsList.swift in Sources */,
-				67C4EF8425D83FF10076E596 /* poc_swift_react_natvieApp.swift in Sources */,
+				676BAFA225D9FB5000384B07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +510,7 @@
 		};
 		67C4EFA625D83FF60076E596 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897B9C1C2AEEE6C09296138D /* Pods-poc-swift-react-natvie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,7 +519,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"poc-swift-react-natvie/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "poc-swift-react-natvie/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +535,7 @@
 		};
 		67C4EFA725D83FF60076E596 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D9FB9625BD4D956FD4FDD1 /* Pods-poc-swift-react-natvie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,7 +544,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"poc-swift-react-natvie/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "poc-swift-react-natvie/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
